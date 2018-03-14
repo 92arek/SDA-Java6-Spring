@@ -3,11 +3,9 @@ package com.kchmielewski.sda.java6.spring09java.player.web;
 import com.kchmielewski.sda.java6.spring09java.player.model.Player;
 import com.kchmielewski.sda.java6.spring09java.player.service.PlayerService;
 import org.assertj.core.api.SoftAssertions;
-import org.junit.Before;
 import org.junit.Test;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
-import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
